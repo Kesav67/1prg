@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = {
-    'Department':['CSE','ECE','ME','CE','CV'],
+    'Department':['CSE','ISE','ME','CE','CV'],
     'Students':[98,75,60,50,81]
 }
 
@@ -13,3 +13,4 @@ plt.pie(df['data'], autopct = '%1.1f%', startangle = 120, color=['orange','light
 plt.title("Number of students in department",fontsize=14)
 plt.label(df['Department'],color='black',fontsize=9)
 plt.show()
+
